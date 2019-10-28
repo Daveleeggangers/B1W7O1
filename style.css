@@ -23,7 +23,7 @@ div.header {
 	margin-left: 20px;
 }
 
-ul li {
+.menu-container ul li {
 	display: inline-block;
 	color: #A4A4A4;
 	font-weight: bold;
@@ -32,11 +32,37 @@ ul li {
 	margin-top: 30px;
 }
 
-ul li a {
+.menu-container-back ul li {
+	display: inline-block;
+	color: #A4A4A4;
+	font-weight: bold;
+	margin-left: 30px;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.menu-container ul li a {
 	text-decoration: none;
 	color: #A4A4A4;
 	font-weight: bold;
+}
 
+.menu-container-back ul li a {
+	text-decoration: none;
+	color: #A4A4A4;
+	font-weight: bold;
+}
+
+.middenheader-container{
+	background: url("header_bg.png");
+	grid-column: 2/4;
+	grid-row: 1/2; 
+}
+
+div.menu-container-back {
+	grid-column: 3/4;
+	grid-row: 1/2; 
+	background: url("header_bg.png");
 }
 
 div.menu-container {
@@ -75,11 +101,11 @@ div.banner {
 }
 
 #item2 {
-	grid-column: 2/3
+	grid-column: 2/3;
 }
 
 #item3 {
-	grid-column: 3/4
+	grid-column: 3/4;
 }
 
 .item {
@@ -99,10 +125,43 @@ div.footer {
 	grid-row: 4/5;
 	width: 1100px;
 	height: 40px;
+	opacity: 0.6;
 }
 
 #naam {
 	text-align: center;
 	color: #fff;
 	margin-top: 6px;
+}
+
+.backlink {
+	float: left;
+}
+
+#Bannerauto {
+	width: 570px;
+	margin: 20px 10px 30px 30px;
+	border: solid 6px #FFF;
+}
+
+#Bannerkleding {
+	width: 550px;
+	margin: 20px 10px 30px 30px;
+	border: solid 6px #FFF;
+}
+
+.paragraphlist li {
+	margin-bottom: 10px;
+}
+
+.back a {
+	grid-row: 2/3;
+}
+
+.itemkleding p {
+	margin-left: 40px;
+}
+
+.aline-text {
+	margin-left: 40px;
 }
